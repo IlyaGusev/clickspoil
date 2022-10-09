@@ -1,0 +1,23 @@
+{
+    "batch_size": 32,
+    "learning_rate": 0.00004,
+    "num_train_epochs": 3,
+    "gradient_accumulation_steps": 4,
+    "max_tokens": 500,
+    "logging_steps": 1,
+    "save_steps": 25,
+    "eval_steps": 25,
+    "warmup_steps": 25,
+    "model_name": "roberta-base",
+    "num_labels": 3,
+    "id2label": {
+        "0": "phrase",
+        "1": "passage",
+        "2": "multi"
+    },
+    "label2id": {
+        "phrase": 0,
+        "passage": 1,
+        "multi": 2
+    }
+}
